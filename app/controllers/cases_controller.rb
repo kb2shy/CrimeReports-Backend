@@ -8,6 +8,7 @@ class CasesController < ApplicationController
 
   def show
     @case = Case.find(params[:id])
+    render json: @case
   end
 
   def create
@@ -31,7 +32,7 @@ class CasesController < ApplicationController
   private
 
   def case_params
-    params.permit(:imageurl, :firstname, :lastname, :courtdate, :gonumber, :crime, :neighborhood, :dov, :events)
+    params.permit(:imageurl, :firstname, :lastname, :courtdate, :gonumber, :crime, :neighborhood, :dov, :event_id)
   end
 
   def find_case

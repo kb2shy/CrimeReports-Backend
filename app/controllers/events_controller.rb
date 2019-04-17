@@ -1,6 +1,11 @@
 class EventsController < ApplicationController
   before_action :find_event, only: [:update]
 
+  def index
+    @events = Event.all
+    render json: @events
+  end
+
   def create
     @event = Event.new(event_params)
     if @event.save

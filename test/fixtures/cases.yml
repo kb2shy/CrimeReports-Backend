@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  imageurl: MyString
+  firstname: MyString
+  lastname: MyString
+  courtdate: 2019-04-16 14:10:43
+  gonumber: 
+  crime: MyString
+  neighborhood: MyString
+  dov: 2019-04-16 14:10:43
+  events: MyString
+
+two:
+  imageurl: MyString
+  firstname: MyString
+  lastname: MyString
+  courtdate: 2019-04-16 14:10:43
+  gonumber: 
+  crime: MyString
+  neighborhood: MyString
+  dov: 2019-04-16 14:10:43
+  events: MyString
